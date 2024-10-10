@@ -61,5 +61,78 @@ body{
     margin: 0;
     padding-top: 3px;
     font-style: italic;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
+}
+
+.products{
+    text-align: center;
+    font-size: 70;
+    font-family:cursive;
+    padding-bottom: 0px;
+}
+
+.kb-img{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    image-rendering: optimizeQuality;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.kb-img img{
+    height: 500;
+    border-radius: 15px;
+    width: auto;
+    image-rendering: optimizeQuality;
+
+    box-shadow: 5px 5px 12px;
+}
+
+.kb-img img:hover{
+    transform: scale(1.01);
+    transition: all 0.29s ease;
+}
+
+.mouse-img{
+    display: flex;
+    justify-content: space-evenly;
+    image-rendering: optimizeQuality;
+    padding-top: 82;
+    padding-bottom: 100;
+}
+
+.mouse-img img {
+    height: 506;
+    border-radius: 15px;
+    width: auto;
+    box-shadow: 5px 5px 12px;
+}
+
+.mouse-img img:hover{
+    transform: scale(1.01);
+    transition: all 0.29s ease;
+}
+
+.headphone-img {
+    display: flex;
+    justify-content: space-evenly;
+    image-rendering: optimizeQuality;
+    padding-top: 82;
+    padding-bottom: 100;
+
+}
+
+.headphone-img img{
+    height: 600;
+    border-radius: 15px;
+    width: auto;
+    box-shadow: 5px 5px 12px;
+}
+
+.headphone-img img:hover{
+    transform: scale(1.01);
+    transition: all 0.29s ease;
 }
